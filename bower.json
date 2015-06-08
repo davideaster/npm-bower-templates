@@ -14,5 +14,8 @@
     "bower_components",
     "test",
     "testem.yml"
-  ]
+  ],
+  "dependencies": {
+    "requirejs-babel": "~0.0.6"
+  }
 }
