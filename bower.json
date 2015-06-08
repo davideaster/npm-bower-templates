@@ -16,6 +16,8 @@
     "testem.yml"
   ],
   "dependencies": {
+    "requirejs": "~2.1.18",
+    "require-css": "~0.1.8",
     "requirejs-babel": "~0.0.6",
     "react": "~0.13.3"
   }
