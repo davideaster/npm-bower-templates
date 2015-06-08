@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html><head>
+
+  <meta charset="utf-8">
+
+  <!-- Mocha and Chai -->
+
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="../node_modules/chai/chai.js"></script>
+  <script> assert = chai.assert </script>
+
+  <script> mocha.setup( "bdd" ) </script>
+
+  <!-- Connect to the Testem runner if launched by Testem -->
+
+  <script> window.location.port === "7357" &&
+    document.write( "<scr" + "ipt src='/testem.js'></scr" + "ipt>") </script>
+
+</head><body>
+
+  <!-- Mocha output div -->
+
+  <div id="mocha"/>
+
+  <!-- Module lib and test files -->
+
+  <script src="../lib/main.js"></script>
+  <script src="main.js"></script>
+
+  <!-- Run Mocha -->
+
+  <script> ( window.mochaPhantomJS || window.mocha ).run() </script>
+
+</body></html>

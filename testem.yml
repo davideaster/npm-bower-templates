@@ -1,0 +1,6 @@
+test_page:
+  test/index.html
+
+watch_files:
+  - lib/**/*.js
+  - test/**/*.js
