@@ -1,3 +1,3 @@
 require( [ "config" ], function() {
-  require( [ "lib/main" ] );
+  require( [ "cssx!css/main", "lib/main" ] );
 } );
