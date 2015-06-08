@@ -1,7 +1,11 @@
-describe( "Group", function() {
+define( [ "../lib/main" ], function( lib ) {
 
-    specify( "test", function() {
-        assert( true, "comment" );
+    describe( "Group", function() {
+
+        specify( "test", function() {
+            assert( true, "comment" );
+        } );
+
     } );
 
 } );
