@@ -14,5 +14,9 @@
     "bower_components",
     "test",
     "testem.yml"
-  ]
+  ],
+  "dependencies": {
+    "requirejs": "davideaster/requirejs-bower#plugin-map",
+    "require-css": "~0.1.8"
+  }
 }
