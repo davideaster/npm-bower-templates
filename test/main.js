@@ -1,4 +1,4 @@
-define( [ "../lib/main" ], function( lib ) {
+define( [ "es6!../lib/main" ], function( lib ) {
 
     describe( "Group", function() {
 

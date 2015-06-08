@@ -4,6 +4,12 @@
 
     mainConfigFile: "config.js",
 
+    // Define the `bower` alias.
+
+    paths: {
+        bower: "bower_components"
+    },
+
     // Find `require` statements inside `require` statements.
 
     findNestedDependencies: true,
